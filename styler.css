@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,700;1,800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}   
+html,body{
+    line-height:1.4;
+    font-weight:300;
+    font-family:"Poppins",sans-serif;
+}
+button{
+    padding:10px 15px;
+    border:none;
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    opacity: 0.9;
+    transition: 0.2s ease-in-out;
+}
+nav
+{
+    box-shadow:5px 5px 5px rgba(1, 1, 1, 0.05) ;
+    position: sticky;
+    top:0;
+    margin-bottom: 32px;
+    background-color: lavender;    
+    padding: 30px;
+    justify-content: space-between;
+}   
+.navbar{
+    display: flex;
+    margin-top: 10px;
+    padding:20px;
+    margin-left: 1000px;
+    gap:20px;
+    justify-content: center;
+    
+}
+.navbar{
+    display: flex;
+    gap:20px;
+}
+.navigation{
+   
+    justify-content: space-between;
+    align-items:center;
+}
+.container{
+     max-width: 1200px;
+     margin: 0 auto;
+}
+
+.hero{
+    display: flex;
+    gap : 100px;
+    justify-content : center;
+    align-items: center;
+}
+
+.hero_content{
+    display: flex;
+    flex-direction: column;
+    gap:20px
+
+}
+.tag{
+    background-color: rgb(14, 166, 64);
+    padding:5px 10px;
+    color:white;
+    align-self: flex-start;
+}
+.tag:hover{
+    opacity: 0.7;
+    transition:0.2s ease-in-out;
+}
+.hero_content h1{
+    font-size: 72px;
+    line-height: 1.2;
+    font-weight:400px;
+}
+.explore_btn {
+    background: rgb(241, 173, 83);
+    align-self:flex-start;
+}
+.features{
+    margin-top: 100px;
+    margin-bottom:50px;
+    padding:20px;
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
+.features{
+    display: flex;
+    gap:20px;
+
+}
+.features:hover{
+    opacity: 0.7;
+    transition: 0.2s ease-in-out;
+
+}
+.divider{
+    border:1px solid grey;
+    margin:20px 0px;
+    
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    margin: 50px 6px;
+    align-items: center;
+
+
+}
+.menu .tag{
+    align-self: center;
+}
+
+.grid-image{
+    border-radius: 10px;
+    transition: 0.2s ease-in-out
+}
+.grid-image:hover{
+    transform: scale(1.05);
+    transition:0.2s ease-in-out
+}
+.grid{
+    display: grid;
+    gap:10px ;
+    grid-template-areas: "I1 I1 I2 I3"
+                         "I1 I1 I2 I7"
+                         "I6 I8 I9 I7";
+}
+.item1{
+    grid-area:I1;
+
+}
+.item2{
+    grid-area:I2;
+}
+.item3{
+    grid-area:I3;
+}
+.item6{
+    grid-area:I6;
+}
+.item7{
+    grid-area:I7;
+}
+.item8{
+    grid-area:I8;
+}
+.item9{
+    grid-area:I9;
+}
+

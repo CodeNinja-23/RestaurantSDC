@@ -1,0 +1,23 @@
+/* importing fonts */
+
+  @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+body
+{
+    background-color: rgba(75,50, 120, 0.1);
+    
+}
+th{
+    color: black;
+    font-family: 'Cinzel', serif;
+    font-size:large;
+}
+
+table{
+    border:2px solid black;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
